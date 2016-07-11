@@ -1,0 +1,58 @@
+{	"_id" : "Dreammarket",
+	"name" : "Dreammarket",
+        "validation_string":"Captcha was incorrectly entered",
+	"registration" : {
+		"url" : "https://lchudifyeqm4ldjj.onion.to/register",
+		"submit_button" : "/html/body/div[3]/div[3]/form/div/div[8]/input",
+		"captcha" : {
+			"image" : "/html/body/div[3]/div[3]/form/div/div[6]/img",
+			"form" : "//*[@id=\"captcha\"]",
+			"processor" : "decaptcha",
+			"length" : 4
+		},
+		"fields" : [
+			{
+				"xpath" : "//*[@id=\"login\"]",
+				"type" : "username",
+				"required" : true
+			},
+			{
+				"xpath" : "//*[@id=\"password\"]",
+				"type" : "password",
+				"required" : true
+			},
+			{
+				"xpath" : "//*[@id=\"retypepassword\"]",
+				"type" : "password",
+				"required" : true
+			},
+			{
+				"xpath" : "//*[@id=\"pinnumber\"]",
+				"type" : "custom",
+				"value" : "1234",
+				"required" : true
+			}
+		]
+	},
+	"login" : {
+		"url" : "https://rescator.cm/?action=login",
+		"submit_button" : "//*[@id=\"login_form\"]/input[3]",
+		"captcha" : {
+			"image" : "//*[@id=\"captcha\"]/img",
+			"form" : "//*[@id=\"code\"]",
+			"processor" : "decaptcha"
+		},
+		"fields" : [
+			{
+				"xpath" : "//*[@id=\"login\"]",
+				"type" : "username",
+				"required" : true
+			},
+			{
+				"xpath" : "//*[@id=\"pass\"]",
+				"type" : "password",
+				"required" : true
+			}
+		]
+	}
+}

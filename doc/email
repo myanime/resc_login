@@ -1,0 +1,33 @@
+Hi Matt,
+Here is the script for doing Generic Logons and Registrations for sites in a
+MongoDB Collection.
+
+https://youtu.be/hDwi7XaIgVw
+
+The script uses Chrome Driver, the driver I have included is for Linux, have a
+bit of a search if you need it on a Mac or windows.
+https://sites.google.com/a/chromium.org/chromedriver/
+
+I changed the schema of your database slightly I added a field for the checkbox
+in the register section. If you import the rescator_schema document to mongo,
+the script should work.
+
+The captcha is being solved by OCR, but I put in a method for solving using
+decaptcha (I have not implemented it however)
+
+There are still a few thing that need to be fixed up, I wrote about in in the
+readme.txt file, but specifically:
+    1. Error Handling
+    2. Database schema needs some fields added, to make the script more generic
+
+For me to work on this it would be helpful if I had 2 or 3 other sites to use
+as inputs.
+
+I spent all Saturday on this script, it took 14 hours (I worked also today a bit)
+I would say it needs about another 4-6 hours of work.
+
+Let me know your thoughts.
+
+Ryan 
+# I have forgotten my Jira Login, if you could send me a reminder, or invit me
+again, that would be good. 

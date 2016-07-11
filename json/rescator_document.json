@@ -1,0 +1,90 @@
+{
+	"_id" : "Rescator",
+	"name" : "Rescator",
+        "validation_string":"Wrong code",
+	"description" : "Carding store",
+	"tags" : [
+		"credit-card",
+		"store"
+	],
+	"invite_required" : false,
+	"paid_access" : false,
+	"domain" : "rescator.cm",
+	"https" : true,
+	"primary_language" : "en",
+	"tor" : false,
+	"static_proxy" : true,
+	"dynamic_proxy" : false,
+	"updates_pages" : [
+		{
+			"url" : "https://rescator.cm/feed",
+			"login_required" : true,
+			"interval" : 60,
+			"name" : "Lists new dumps"
+		}
+	],
+	"home_page" : "https://rescator.cm",
+	"forum" : {
+		"url" : "https://rescator.cm/forum",
+		"type" : "vBulletin",
+		"version" : 3.87
+	},
+	"registration" : {
+		"captcha" : {
+			"image" : "//*[@id='captcha']/img",
+			"form" : "//*[@id=\"code\"]",
+			"processor" : "tesseract",
+			"length": 5
+		},
+		"required" : true,
+		"url" : "https://rescator.cm/?action=register",
+		"fields" : [
+			{
+				"xpath" : "//*[@id=\"login\"]",
+				"type" : "username",
+				"required" : true
+			},
+			{
+				"xpath" : "//*[@id=\"pass\"]",
+				"type" : "password",
+				"required" : true
+			},
+			{
+				"xpath" : "//*[@id=\"repass\"]",
+				"type" : "password",
+				"required" : true
+			},
+                        {
+                            	"xpath" : "//*[@id=\"login_form\"]/label[7]/input",
+				"type" : "checkbox",
+				"required" : true
+                        }
+		],
+		"submit_button" : "//*[@id=\"login_form\"]/input[7]",
+		
+	},
+	"login" : {
+		"required" : true,
+		"captcha" : {
+			"image" : "//*[@id=\"captcha\"]/img",
+			"form" : "//*[@id=\"code\"]",
+			"processor" : "decaptcha"
+		},
+		"url" : "https://rescator.cm/?action=login",
+		"fields" : [
+			{
+				"xpath" : "//*[@id=\"login\"]",
+				"type" : "username",
+				"required" : true
+			},
+			{
+				"xpath" : "//*[@id=\"pass\"]",
+				"type" : "password",
+				"required" : true
+			}
+		],
+		"submit_button" : "//*[@id=\"login_form\"]/input[3]",
+		"username" : "zxwnmJgS",
+		"password" : "NFIbHzOo"
+	}
+}
