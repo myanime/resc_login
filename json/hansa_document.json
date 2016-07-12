@@ -1,0 +1,54 @@
+{	"_id" : "Hansa",
+	"name" : "Hansa",
+	"validation_string":"Invalid security code!",
+	"registration" : {
+		"url" : "https://hansamkt2rr6nfg3.onion.to/register",
+		"submit_button" : "/html/body/div[5]/div/div/form/button",
+		"captcha" : {
+			"image" : "/html/body/div[5]/div/div/form/div[4]/p[1]/img",
+			"form" : "//*[@id='sec']",
+			"processor" : "decaptcha",
+			"length" : 6
+		},
+		"fields" : [
+			{
+				"xpath" : "//*[@id='uname']",
+				"type" : "username",
+				"required" : true
+			},
+			{
+				"xpath" : "//*[@id='pw1']",
+				"type" : "password",
+				"required" : true
+			},
+			{
+				"xpath" : "//*[@id='pw2']",
+				"type" : "password",
+				"required" : true
+			}
+		]
+	},
+	"login" : {
+		"url" : "https://hansamkt2rr6nfg3.onion.to/login",
+		"username" : "qAmeGPdN",
+		"password" : "dUaEyWos",
+		"submit_button" : "/html/body/div[5]/div/div/form/button",
+		"captcha" : {
+			"image" : "/html/body/div[5]/div/div/form/div[3]/p[1]/img",
+			"form" : "//*[@id='sec']",
+			"processor" : "decaptcha"
+		},
+		"fields" : [
+			{
+				"xpath" : "//*[@id='uname']",
+				"type" : "username",
+				"required" : true
+			},
+			{
+				"xpath" : "//*[@id='pw']",
+				"type" : "password",
+				"required" : true
+			}
+		]
+	}
+}

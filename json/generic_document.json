@@ -1,0 +1,54 @@
+{	"_id" : "",
+	"name" : "",
+	"validation_string":"",
+	"registration" : {
+		"url" : "",
+		"submit_button" : "",
+		"captcha" : {
+			"image" : "",
+			"form" : "",
+			"processor" : "decaptcha",
+			"length" : 6
+		},
+		"fields" : [
+			{
+				"xpath" : "",
+				"type" : "username",
+				"required" : true
+			},
+			{
+				"xpath" : "",
+				"type" : "password",
+				"required" : true
+			},
+			{
+				"xpath" : "",
+				"type" : "password",
+				"required" : true
+			}
+		]
+	},
+	"login" : {
+		"url" : "",
+		"username" : "qAmeGPdN",
+		"password" : "dUaEyWos",
+		"submit_button" : "",
+		"captcha" : {
+			"image" : "",
+			"form" : "",
+			"processor" : "decaptcha"
+		},
+		"fields" : [
+			{
+				"xpath" : "",
+				"type" : "username",
+				"required" : true
+			},
+			{
+				"xpath" : "",
+				"type" : "password",
+				"required" : true
+			}
+		]
+	}
+}

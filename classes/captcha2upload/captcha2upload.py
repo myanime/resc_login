@@ -7,7 +7,9 @@ class CaptchaUpload:
     def __init__(self, key, log=None, waittime=None):
         self.settings = {"url_request": "http://2captcha.com/in.php",
                          "url_response": "http://2captcha.com/res.php",
-                         "key": key}
+                         "textinstructions" : "lowercase uppercase is important",
+                         "key": key
+                         }
         if log:
             self.log = log
             self.logenabled = True

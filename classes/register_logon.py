@@ -1,9 +1,11 @@
 from captcha_methods import Captcha
 
-class Register:
-    @staticmethod
-    def verify_login_creation(driver, registration_data):
-        validation_string = registration_data.get_validation_string()
+class RegisterLogon:
+    def __init__(self, data):
+        self.data = data
+
+    def verify_login(self, driver):
+        validation_string = self.data.get_validation_string()
         print validation_string
         html = driver.page_source
         if validation_string in html:
@@ -12,15 +14,15 @@ class Register:
         else:
             print "Captcha Solved, login created sucessfully and saved to database for future login attempts"
             return True
-    @staticmethod
-    def click_submit(driver, registration_data):
-        submit_button = registration_data.get_submit_button_xpath()
+
+    def click_submit(self, driver):
+        submit_button = self.data.get_submit_button_xpath()
         driver.find_element_by_xpath(submit_button).click()
-    @staticmethod
-    def input_fields(driver, registration_data):
-        username = registration_data.get_username()
-        password = registration_data.get_password()
-        fields_array = registration_data.get_fields_xpath()
+
+    def input_fields(self, driver):
+        username = self.data.get_username()
+        password = self.data.get_password()
+        fields_array = self.data.get_fields_xpath()
         for field in fields_array:
             if field["type"] == "password":
                 driver.find_element_by_xpath(field["xpath"]).send_keys(password)
@@ -33,23 +35,23 @@ class Register:
             if field["type"] == "checkbox":
                 checkbox = driver.find_element_by_xpath(field["xpath"])
                 checkbox.click()
-                
-    @staticmethod
-    def input_captcha_decaptcha(driver, registration_data, capture_driver):
-        captcha_xpath = registration_data.get_captcha_xpath()
-        originalImage = Captcha.get_captcha(driver, registration_data)
+
+    def input_captcha_decaptcha(self, driver, capture_driver):
+        captcha_xpath = self.data.get_captcha_xpath()
+        originalImage = Captcha.get_captcha(driver, self.data)
         thresholdImage = Captcha.threshold()
-        #Makes it a bit eaiser to solve for the Captcha Monekys
-        captcha =  capture_driver.solve("./captchas/threshold_captcha.png")
+        #Makes it a bit eaiser to solve for the Captcha Monekys, but sometimes doesnt work
+        #captcha =  capture_driver.solve("./captchas/threshold_captcha.png")
+        captcha = capture_driver.solve("./captchas/captcha.png")
         driver.find_element_by_xpath(captcha_xpath).send_keys(captcha)
         return captcha
-    @staticmethod
-    def input_captcha_tesseract(driver, registration_data):
-        captcha_xpath = registration_data.get_captcha_xpath()
-        originalImage = Captcha.get_captcha(driver, registration_data)
+
+    def input_captcha_tesseract(self, driver):
+        captcha_xpath = self.data.get_captcha_xpath()
+        originalImage = Captcha.get_captcha(driver, self.data)
         thresholdImage = Captcha.threshold()
         captcha = Captcha.decode_captcha(originalImage, thresholdImage)
-        input_captcha = Captcha.length_check(captcha, registration_data)
+        input_captcha = Captcha.length_check(captcha, self.data)
         if input_captcha:
             try:
                 driver.find_element_by_xpath(captcha_xpath).send_keys(input_captcha)

@@ -35,8 +35,8 @@ class Captcha:
 
     '''General Method to get the Captcha Picture'''
     @staticmethod
-    def get_captcha(driver, registration_data):
-        captcha_xpath = registration_data.get_captcha_image_xpath()
+    def get_captcha(driver, data):
+        captcha_xpath = data.get_captcha_image_xpath()
         elem = driver.find_element_by_xpath(captcha_xpath)
         loc  = elem.location
         size = elem.size

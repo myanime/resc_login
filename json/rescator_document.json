@@ -1,7 +1,7 @@
 {
 	"_id" : "Rescator",
 	"name" : "Rescator",
-        "validation_string":"Wrong code",
+	"validation_string" : "Wrong code",
 	"description" : "Carding store",
 	"tags" : [
 		"credit-card",
@@ -34,7 +34,7 @@
 			"image" : "//*[@id='captcha']/img",
 			"form" : "//*[@id=\"code\"]",
 			"processor" : "tesseract",
-			"length": 5
+			"length" : 5
 		},
 		"required" : true,
 		"url" : "https://rescator.cm/?action=register",
@@ -54,21 +54,21 @@
 				"type" : "password",
 				"required" : true
 			},
-                        {
-                            	"xpath" : "//*[@id=\"login_form\"]/label[7]/input",
+			{
+				"xpath" : "//*[@id=\"login_form\"]/label[7]/input",
 				"type" : "checkbox",
 				"required" : true
-                        }
+			}
 		],
-		"submit_button" : "//*[@id=\"login_form\"]/input[7]",
-		
+		"submit_button" : "//*[@id=\"login_form\"]/input[7]"
 	},
 	"login" : {
 		"required" : true,
 		"captcha" : {
 			"image" : "//*[@id=\"captcha\"]/img",
 			"form" : "//*[@id=\"code\"]",
-			"processor" : "decaptcha"
+			"processor" : "tesseract",
+            "length" : 5
 		},
 		"url" : "https://rescator.cm/?action=login",
 		"fields" : [
