@@ -20,7 +20,9 @@ Version 1.2: 3.5hrs
 - refactored Register and Logon classes to RegisterLogon class
 - fixed login method
 - removed all rescator specific methods
-    
-Comming Soon 
-Version 1.3
+
+Version 1.3 0hrs
+- Web interface
+
+Version 1.4 - Comming Soon (1-2 days)
 - Adding alphabay and DDOs Captcha support

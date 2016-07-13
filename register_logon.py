@@ -13,7 +13,8 @@ from classes.captcha2upload.captcha2upload import CaptchaUpload
 #NFIbHzOo, HarDp@$s6
 
 #################################Database Connector#################################
-NAME_OF_SITE = "Hansa"#"Dreammarket","Rescator"
+SITE_LIST = ["Hansa","Dreammarket","Rescator"]
+NAME_OF_SITE = SITE_LIST[2]
 PROXY = "schlupfi.de:3128"
 DATABASE = "database"
 COLLECTION = "sites"
