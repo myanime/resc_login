@@ -12,7 +12,7 @@ def add_to_database(request):
         modify_data.set_registration_username_xpath(username)
         modify_data.set_registration_password_xpath(password)
         updated = "Sucessfully Updated"
-        return render(request, 'modify_database/index.html', {"form": form, "updated_message":updated})
+        return render(request, 'modify_database/login.html', {"form": form, "updated_message":updated})
     else:
         form = ModifyMongoForm()
 

@@ -1,0 +1,69 @@
+{	"_id" : "Alphabay",
+	"name" : "Alphabay",
+	"validation_string":"You entered the wrong security code",
+	"ddos": {
+		"url":"https://pwoah7foa6au2pul.onion.to/challenge.php",
+		"image": "/html/body/div[2]/div[2]/p[2]/img",
+		"form":	"/html/body/div[2]/div[2]/form/input[2]",
+		"processor":"decaptcha",
+		"length":5,
+		"submit": "/html/body/div[2]/div[2]/form/input[3]",
+		"validation_string":"but only during possible DDoS periods"
+	},
+	"registration" : {
+		"url" : "https://pwoah7foa6au2pul.onion.to/register.php",
+		"submit_button" : "/html/body/div[2]/div[3]/div/div[2]/div[2]/form/input",
+		"captcha" : {
+			"image" : "/html/body/div[2]/div[3]/div/div[2]/div[2]/form/div[38]",
+			"form" : "/html/body/div[2]/div[3]/div/div[2]/div[2]/form/div[41]/input",
+			"processor" : "decaptcha",
+			"length" : 6
+		},
+		"fields" : [
+			{
+				"xpath" : "/html/body/div[2]/div[3]/div/div[2]/div[2]/form/div[2]/input",
+				"type" : "username",
+				"required" : true
+			},
+			{
+				"xpath" : "/html/body/div[2]/div[3]/div/div[2]/div[2]/form/div[5]/input",
+				"type" : "password",
+				"required" : true
+			},
+			{
+				"xpath" : "/html/body/div[2]/div[3]/div/div[2]/div[2]/form/div[8]/input",
+				"type" : "password",
+				"required" : true
+			},
+			{
+				"xpath" : "/html/body/div[2]/div[3]/div/div[2]/div[2]/form/div[11]/input",
+				"type" : "custom",
+				"value" : "123456",
+				"required" : true
+			}
+		]
+	},
+	"login" : {
+		"url" : "https://pwoah7foa6au2pul.onion.to/login.php",
+		"username" : "qAmeGPdN",
+		"password" : "dUaEyWos",
+		"submit_button" : "/html/body/div[2]/div[3]/div/div[2]/div[2]/form/div[14]/input",
+		"captcha" : {
+			"image" : "//*[@id='captcha']",
+			"form" : "/html/body/div[2]/div[3]/div/div[2]/div[2]/form/div[11]/input",
+			"processor" : "decaptcha"
+		},
+		"fields" : [
+			{
+				"xpath" : "/html/body/div[2]/div[3]/div/div[2]/div[2]/form/div[2]/input",
+				"type" : "username",
+				"required" : true
+			},
+			{
+				"xpath" : "/html/body/div[2]/div[3]/div/div[2]/div[2]/form/div[5]/input",
+				"type" : "password",
+				"required" : true
+			}
+		]
+	}
+}

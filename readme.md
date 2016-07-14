@@ -24,5 +24,21 @@ Version 1.2: 3.5hrs
 Version 1.3 0hrs
 - Web interface
 
-Version 1.4 - Comming Soon (1-2 days)
-- Adding alphabay and DDOs Captcha support
+Version 1.4 6hrs
+- Adding alphabay login support (No support for Alphabay registration)
+- DDOs Captcha support
+- Improved web interface
+	http://localhost:8000/
+	http://localhost:8000/modify_database
+	http://localhost:8000/login_register/login
+	http://localhost:8000/login_register/register
+- improved proxy support (setup_proxy())
+- somewhat improved error handling
+
+Version 1.5 - Comming soon - 1 week+
+- Scraper/Site Profiler?
+- Improved web interface?
+- Add support for additional sites?
+- Improve error handling
+
+

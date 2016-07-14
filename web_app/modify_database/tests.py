@@ -1,7 +1,7 @@
 # Create your tests here.
-import sys
-path = sys.path[1] + '/classes'
-sys.path.insert(0, path)
-from modifyDAO import *
-
-tes()
+sites = ['fff','ggg','aaa']
+SITES = []
+for site in sites:
+    SITES.append((site, site))
+print tuple(SITES)
+    

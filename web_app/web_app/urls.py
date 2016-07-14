@@ -20,4 +20,6 @@ from django.conf.urls import include
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^modify_database', include('modify_database.urls')),
+    url(r'^login_register', include('login_register.urls')),
+    url(r'^$', include("login_register.urls")),
 ]
