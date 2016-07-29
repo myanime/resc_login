@@ -59,9 +59,14 @@ class RegisterLogon:
             captcha_xpath = self.data.get_captcha_xpath_ddos()
             originalImage = Captcha.get_captcha(driver, self.data, ddos=True)
         else:
-            captcha_xpath = self.data.get_captcha_xpath()
-            originalImage = Captcha.get_captcha(driver, self.data)
-            thresholdImage = Captcha.threshold()
+            #If the site is Rescator, use the DownLoadMethod to get the captcha
+            if self.data.NAME_OF_SITE == "Rescator":
+                captcha_xpath = self.data.get_captcha_xpath()
+                originalImage = Captcha.get_captcha_dlm(driver, self.data)
+            else:
+                captcha_xpath = self.data.get_captcha_xpath()
+                originalImage = Captcha.get_captcha(driver, self.data)
+                thresholdImage = Captcha.threshold()
 
         # This will solve the threshold captcha, the next one the real captcha
         # captcha =  capture_driver.solve("./captchas/threshold_captcha.png")
@@ -72,7 +77,7 @@ class RegisterLogon:
 
     def input_captcha_tesseract(self, driver):
         captcha_xpath = self.data.get_captcha_xpath()
-        originalImage = Captcha.get_captcha(driver, self.data)
+        originalImage = Captcha.get_captcha_dlm(driver, self.data)
         thresholdImage = Captcha.threshold()
         captcha = Captcha.decode_captcha(originalImage, thresholdImage)
         input_captcha = Captcha.length_check(captcha, self.data)

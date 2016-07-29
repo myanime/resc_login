@@ -33,7 +33,7 @@
 		"captcha" : {
 			"image" : "//*[@id='captcha']/img",
 			"form" : "//*[@id=\"code\"]",
-			"processor" : "tesseract",
+			"processor" : "decaptcha",
 			"length" : 5
 		},
 		"required" : true,
@@ -67,7 +67,7 @@
 		"captcha" : {
 			"image" : "//*[@id=\"captcha\"]/img",
 			"form" : "//*[@id=\"code\"]",
-			"processor" : "tesseract",
+			"processor" : "decaptcha",
             "length" : 5
 		},
 		"url" : "https://rescator.cm/?action=login",

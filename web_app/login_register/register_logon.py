@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.proxy import *
 from selenium.common.exceptions import TimeoutException
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import time
 
 from classes.register_logon import RegisterLogon
@@ -31,7 +32,7 @@ collection = database[COLLECTION]
 def start_login(site):
     global NAME_OF_SITE
     NAME_OF_SITE = site
-    driver = webdriver.Chrome(executable_path='./chromedriver')
+    driver = phantom_headers()
     #IF you want to use your own proxy uncomment this and coment out above. Otherwise
     #It will use onion.to proxy. Only Alphabay at the moment supports cusotom proxy
     #(the xpaths have to be recollected - Not really a big job)
@@ -46,13 +47,23 @@ def start_register(site):
     global NAME_OF_SITE
     NAME_OF_SITE = site
 
-    driver = webdriver.Chrome(executable_path='./chromedriver')
+    driver = phantom_headers()
     driver = load_page(driver)
 
     print register(driver)
 
     time.sleep(15)
     driver.close()
+
+def phantom_headers():
+    dcap = dict(DesiredCapabilities.PHANTOMJS)
+    dcap["phantomjs.page.settings.userAgent"] = (
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/53 "
+        "(KHTML, like Gecko) Chrome/15.0.87"
+    )
+    driver = webdriver.PhantomJS(executable_path='./phantomjs', desired_capabilities=dcap)
+   
+    return driver
 
 ''' This method takes care of any DDOs captures that may arise'''
 def load_page(driver):

@@ -52,9 +52,9 @@ class Captcha:
         loc  = elem.location
         size = elem.size
         left  = loc['x']
-        top   = loc['y']
+        top   = loc['y']-100
         width = size['width']
-        height = size['height']
+        height = size['height']+100
 
         #For Alphabay top = 433
 
@@ -65,6 +65,19 @@ class Captcha:
         img.save('./captchas/fullshot.png', 'PNG')
         area.save('./captchas/captcha.png', 'PNG')
         return area
+    @staticmethod
+    def get_captcha_dlm(driver, data, ddos=False):
+        if ddos:
+            captcha_xpath = data.get_captcha_image_xpath_ddos()
+        else:
+            captcha_xpath = data.get_captcha_image_xpath()
+        elem = driver.find_element_by_xpath(captcha_xpath)
+
+        #Download Method
+        #img.save('./captchas/fullshot.png', 'PNG')
+        src = elem.get_attribute('src')
+        urllib.urlretrieve(src, "./captchas/captcha.png")
+        return True
 
     @staticmethod
     def length_check(captcha, registration_data):

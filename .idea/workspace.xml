@@ -2,45 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ce8056-d39c-495e-bbe9-328faf985e65" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json/alphabay_document.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json/alphabay_noproxy.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/classes/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/classes/captcha2upload/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/classes/captcha2upload/captcha2upload.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/classes/captcha_methods.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/classes/loginDAO.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/classes/registerDAO.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/classes/register_logon.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/modifyDAO.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/register_logon.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/templates/login_register/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/templates/login_register/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/templates/login_register/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web_app/login_register/views.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/V1.4.tar.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/captchas/threshold_captcha.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/captchas/captcha.png" afterPath="$PROJECT_DIR$/captchas/captcha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/captchas/threshold_captcha.png" afterPath="$PROJECT_DIR$/captchas/threshold_captcha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/captchas/fullshot.png" afterPath="$PROJECT_DIR$/captchas/fullshot.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/captcha_methods.py" afterPath="$PROJECT_DIR$/classes/captcha_methods.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/loginDAO.py" afterPath="$PROJECT_DIR$/classes/loginDAO.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/registerDAO.py" afterPath="$PROJECT_DIR$/classes/registerDAO.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/register_logon.py" afterPath="$PROJECT_DIR$/classes/register_logon.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json/import.sh" afterPath="$PROJECT_DIR$/json/import.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json/rescator_document.json" afterPath="$PROJECT_DIR$/json/rescator_document.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register_logon.py" afterPath="$PROJECT_DIR$/register_logon.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run_web_app.sh" afterPath="$PROJECT_DIR$/run_web_app.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_app/modify_database/forms.py" afterPath="$PROJECT_DIR$/web_app/modify_database/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_app/modify_database/modifyDAO.py" afterPath="$PROJECT_DIR$/web_app/modify_database/modifyDAO.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_app/modify_database/tests.py" afterPath="$PROJECT_DIR$/web_app/modify_database/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_app/modify_database/views.py" afterPath="$PROJECT_DIR$/web_app/modify_database/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_app/web_app/settings.py" afterPath="$PROJECT_DIR$/web_app/web_app/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_app/web_app/urls.py" afterPath="$PROJECT_DIR$/web_app/web_app/urls.py" />
     </list>
     <ignored path="final.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,7 +34,7 @@
       <file leaf-file-name="alphabay_document.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/json/alphabay_document.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-436">
+            <state relative-caret-position="90">
               <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
               <folding />
             </state>
@@ -74,7 +44,7 @@
       <file leaf-file-name="dreammarket_document.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/json/dreammarket_document.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
+            <state relative-caret-position="720">
               <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
               <folding />
             </state>
@@ -104,8 +74,8 @@
       <file leaf-file-name="rescator_document.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/json/rescator_document.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-480">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="41" />
+            <state relative-caret-position="225">
+              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -124,7 +94,7 @@
       <file leaf-file-name="register_logon.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web_app/login_register/register_logon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="1815">
               <caret line="131" column="13" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="13" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -136,8 +106,8 @@
       <file leaf-file-name="register_logon.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register_logon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
-              <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+            <state relative-caret-position="1605">
+              <caret line="118" column="13" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -148,7 +118,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web_app/modify_database/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="255">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -219,6 +189,7 @@
         <option value="$PROJECT_DIR$/web_app/login_register/templates/login_register/index.html" />
         <option value="$PROJECT_DIR$/web_app/login_register/register_logon.py" />
         <option value="$PROJECT_DIR$/register_logon.py" />
+        <option value="$PROJECT_DIR$/json/rescator_document.json" />
       </list>
     </option>
   </component>
@@ -254,7 +225,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,6 +259,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -542,13 +513,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="31" y="25" width="1335" height="743" extended-state="7" />
+    <frame x="31" y="25" width="1335" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494382" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -560,6 +530,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
@@ -580,6 +551,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/register_logon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app/modify_database/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_app/modify_database/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/json/alphabay_document.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -600,9 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -628,7 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -644,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,9 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
           <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -751,9 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -761,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
           <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -784,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,9 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,9 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,7 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,9 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -878,13 +847,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web_app/modify_database/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="255">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -902,7 +870,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web_app/login_register/register_logon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="1815">
           <caret line="131" column="13" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="13" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
@@ -912,8 +880,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/register_logon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+        <state relative-caret-position="1605">
+          <caret line="118" column="13" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -922,7 +890,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/json/alphabay_document.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-436">
+        <state relative-caret-position="90">
           <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
           <folding />
         </state>
@@ -930,7 +898,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/json/dreammarket_document.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
+        <state relative-caret-position="720">
           <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
           <folding />
         </state>
@@ -954,8 +922,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/json/rescator_document.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-480">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="41" />
+        <state relative-caret-position="225">
+          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
           <folding />
         </state>
       </provider>

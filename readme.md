@@ -35,10 +35,17 @@ Version 1.4 6hrs
 - improved proxy support (setup_proxy())
 - somewhat improved error handling
 
-Version 1.5 - Comming soon - 1 week+
-- Scraper/Site Profiler?
-- Improved web interface?
-- Add support for additional sites?
-- Improve error handling
+Version 1.5 2hrs
+- PhantomJS
+- new method added: captcha_methods.Captcha.get_captcha_dlm
+	This downloads the captcha directly. It is being used for Alphabay, the others use 
+	the original screenshot method
+- Screenshot Captcha method modified to make it captcha a larger area (PhantomJS reacts differently to chrome
+  but the new method should work for both browsers.
+- in regards to the  --jsonArray I left it out. It seems to work fine here without it, the documents are actually 
+  not a jsonarray, so I cant figgure out why it would complain. But if it works for you, feel free to add it in
+- tested the login methods, I will test the register methods over the weekend.
+- Cleaned up the code, but lost the changes. Will clean it up a bit again and send you a new version over the weekend
+- total time worke = 31.5hrs *5$/hr = $157.50
 
 
